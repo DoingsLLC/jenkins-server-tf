@@ -5,7 +5,7 @@ data "digitalocean_ssh_key" "doings-dokey" {
 }
 
 # Creating a Digital Ocean Droplet
-resource "digitalocean_droplet" "karo-droplet" {
+resource "digitalocean_droplet" "doings-droplet" {
   image    = var.image
   name     = var.droplet_name
   region   = var.droplet_region
