@@ -1,7 +1,7 @@
 # Data source for our SSH key
 
-data "digitalocean_ssh_key" "karo-dokey" {
-  name = "id_rsa.pub"
+data "digitalocean_ssh_key" "doings-dokey" {
+  name = "doings-digitalocean-key"
 }
 
 # Creating a Digital Ocean Droplet
