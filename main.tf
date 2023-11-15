@@ -10,6 +10,6 @@ resource "digitalocean_droplet" "doings-droplet" {
   name     = var.droplet_name
   region   = var.droplet_region
   size     = var.image_size
-  ssh_keys = [data.digitalocean_ssh_key.karo-dokey.id]
+  ssh_keys = [data.digitalocean_ssh_key.doings-dokey.id]
 }
 
