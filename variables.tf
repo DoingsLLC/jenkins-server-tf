@@ -1,6 +1,6 @@
 # Variables for our Terraform Configuration files
 
-variable "image" {
+variable "droplet_image" {
   type        = string
   description = "the image to use for our Linux server"
 }
@@ -17,7 +17,7 @@ variable "droplet_region" {
 
 }
 
-variable "image_size" {
+variable "droplet_size" {
   type        = string
   description = "the disk size for our image"
 }
