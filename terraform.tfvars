@@ -1,0 +1,5 @@
+droplet_name   = "jenkins-server"
+droplet_region = "NYC1"
+droplet_size   = "s-2vcpu-4gb"
+droplet_image  = "ubuntu-23-10-x64"
+do_token       = "dop_v1_40e490e5503421abd2c28d5da4202a0430ab6779cc53dce41c68689def8fbb79"
